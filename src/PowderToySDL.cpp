@@ -1,5 +1,3 @@
-#ifndef RENDERER
-
 #include <map>
 #include <ctime>
 #include <climits>
@@ -80,6 +78,7 @@ int GetModifiers()
 	return SDL_GetModState();
 }
 
+#ifndef FONTEDITOR
 void LoadWindowPosition()
 {
 	int savedWindowX = Client::Ref().GetPrefInteger("WindowX", INT_MAX);
@@ -121,6 +120,7 @@ void SaveWindowPosition()
 	Client::Ref().SetPref("WindowX", x - borderLeft);
 	Client::Ref().SetPref("WindowY", y - borderTop);
 }
+#endif
 
 void CalculateMousePosition(int *x, int *y)
 {
@@ -247,7 +247,9 @@ void RecreateWindow()
 		SDL_DestroyRenderer(sdl_renderer);
 	if (sdl_window)
 	{
+#ifndef FONTEDITOR
 		SaveWindowPosition();
+#endif
 		SDL_DestroyWindow(sdl_window);
 	}
 
@@ -263,8 +265,10 @@ void RecreateWindow()
 	//SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");
 	//SDL_SetWindowResizable(sdl_window, SDL_TRUE);
 
+#ifndef FONTEDITOR
 	if (!Client::Ref().IsFirstRun())
 		LoadWindowPosition();
+#endif
 }
 
 unsigned int GetTicks()
@@ -287,12 +291,17 @@ std::map<ByteString, ByteString> readArguments(int argc, char * argv[])
 	arguments["open"] = "";
 	arguments["ddir"] = "";
 	arguments["ptsave"] = "";
+	arguments["font"] = "";
 
 	for (int i=1; i<argc; i++)
 	{
 		if (!strncmp(argv[i], "scale:", 6) && argv[i]+6)
 		{
 			arguments["scale"] = argv[i]+6;
+		}
+		if (!strncmp(argv[i], "font:", 5) && argv[i]+5)
+		{
+			arguments["font"] = argv[i]+5;
 		}
 		else if (!strncmp(argv[i], "proxy:", 6))
 		{
@@ -480,6 +489,7 @@ void EventProcess(SDL_Event event)
 	}
 }
 
+#ifndef FONTEDITOR
 void DoubleScreenDialog()
 {
 	StringBuilder message;
@@ -492,6 +502,7 @@ void DoubleScreenDialog()
 		engine->SetScale(1);
 	}
 }
+#endif
 
 void EngineProcess()
 {
@@ -545,12 +556,16 @@ void EngineProcess()
 		if (frameStart - lastTick > 100)
 		{
 			lastTick = frameStart;
+#ifndef FONTEDITOR
 			Client::Ref().Tick();
+#endif
 		}
 		if (showDoubleScreenDialog)
 		{
 			showDoubleScreenDialog = false;
+#ifndef FONTEDITOR
 			DoubleScreenDialog();
+#endif
 		}
 	}
 #ifdef DEBUG
@@ -653,17 +668,27 @@ int main(int argc, char * argv[])
 	else
 		ChdirToDataDirectory();
 
+#ifdef FONTEDITOR
+	scale = 1;
+	resizable = false;
+	fullscreen = false;
+	altFullscreen = false;
+	forceIntegerScaling = true;
+#else
 	scale = Client::Ref().GetPrefInteger("Scale", 1);
 	resizable = Client::Ref().GetPrefBool("Resizable", false);
 	fullscreen = Client::Ref().GetPrefBool("Fullscreen", false);
 	altFullscreen = Client::Ref().GetPrefBool("AltFullscreen", false);
 	forceIntegerScaling = Client::Ref().GetPrefBool("ForceIntegerScaling", true);
+#endif
 
 
 	if(arguments["kiosk"] == "true")
 	{
 		fullscreen = true;
+#ifndef FONTEDITOR
 		Client::Ref().SetPref("Fullscreen", fullscreen);
+#endif
 	}
 
 	if(arguments["redirect"] == "true")
@@ -675,9 +700,12 @@ int main(int argc, char * argv[])
 	if(arguments["scale"].length())
 	{
 		scale = arguments["scale"].ToNumber<int>();
+#ifndef FONTEDITOR
 		Client::Ref().SetPref("Scale", scale);
+#endif
 	}
 
+#ifndef FONTEDITOR
 	ByteString proxyString = "";
 	if(arguments["proxy"].length())
 	{
@@ -702,12 +730,14 @@ int main(int argc, char * argv[])
 		disableNetwork = true;
 
 	Client::Ref().Initialise(proxyString, disableNetwork);
+#endif
 
 	// TODO: maybe bind the maximum allowed scale to screen size somehow
 	if(scale < 1 || scale > 10)
 		scale = 1;
 
 	SDLOpen();
+#ifndef FONTEDITOR
 	// TODO: mabe make a nice loop that automagically finds the optimal scale
 	if (Client::Ref().IsFirstRun() && desktopWidth > WINDOWW*2+30 && desktopHeight > WINDOWH*2+30)
 	{
@@ -716,6 +746,7 @@ int main(int argc, char * argv[])
 		SDL_SetWindowSize(sdl_window, WINDOWW * 2, WINDOWH * 2);
 		showDoubleScreenDialog = true;
 	}
+#endif
 
 #ifdef OGLI
 	SDL_GL_SetAttribute (SDL_GL_DOUBLEBUFFER, 1);
@@ -739,7 +770,11 @@ int main(int argc, char * argv[])
 	engine = &ui::Engine::Ref();
 	engine->SetMaxSize(desktopWidth, desktopHeight);
 	engine->Begin(WINDOWW, WINDOWH);
+#ifdef FONTEDITOR
+	engine->SetFastQuit(true);
+#else
 	engine->SetFastQuit(Client::Ref().GetPrefBool("FastQuit", true));
+#endif
 
 #if !defined(DEBUG) && !defined(_DEBUG)
 	//Get ready to catch any dodgy errors
@@ -761,7 +796,16 @@ int main(int argc, char * argv[])
 	try {
 #endif
 
-#ifndef FONTEDITOR
+#ifdef FONTEDITOR
+		if (arguments["font"].length())
+		{
+			engine->ShowWindow(new FontEditor(arguments["font"]));
+		}
+		else
+		{
+			throw std::runtime_error("no font parameter supplied");
+		}
+#else
 		gameController = new GameController();
 		engine->ShowWindow(gameController->GetView());
 
@@ -848,16 +892,13 @@ int main(int argc, char * argv[])
 				new ErrorMessage("Error", ByteString(e.what()).FromUtf8());
 			}
 		}
-
-#else // FONTEDITOR
-		if(argc <= 1)
-			throw std::runtime_error("Not enough arguments");
-		engine->ShowWindow(new FontEditor(argv[1]));
 #endif
 
 		EngineProcess();
 
+#ifndef FONTEDITOR
 		SaveWindowPosition();
+#endif
 
 #if !defined(DEBUG) && !defined(_DEBUG)
 	}
@@ -867,12 +908,14 @@ int main(int argc, char * argv[])
 	}
 #endif
 
+#ifndef FONTEDITOR
 	Client::Ref().SetPref("Scale", ui::Engine::Ref().GetScale());
+#endif
 	ui::Engine::Ref().CloseWindow();
 	delete gameController;
 	delete ui::Engine::Ref().g;
+#ifndef FONTEDITOR
 	Client::Ref().Shutdown();
+#endif
 	return 0;
 }
-
-#endif

@@ -13,7 +13,7 @@
 #include "GOLMenu.h"
 #include "MenuSection.h"
 
-#include "elements/Element.h"
+#include "Element.h"
 
 #define CHANNELS ((int)(MAX_TEMP-73)/100+2)
 
