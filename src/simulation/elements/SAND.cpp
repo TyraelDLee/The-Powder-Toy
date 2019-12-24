@@ -27,7 +27,7 @@ Element_SAND::Element_SAND()
 	Weight = 90;
 
 	HeatConduct = 150;
-	Description = "Sand, Heavy particles. Melts into glass.";
+	Description = "沙, 大质量粒子. 熔化后产生玻璃.";
 
 	Properties = TYPE_PART;
 

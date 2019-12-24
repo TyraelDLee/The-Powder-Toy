@@ -27,7 +27,7 @@ Element_BGLA::Element_BGLA()
 	Weight = 90;
 
 	HeatConduct = 150;
-	Description = "Broken Glass, heavy particles formed when glass breaks under pressure. Meltable. Bagels.";
+	Description = "碎玻璃, 在高压下玻璃碎裂产生的高密度固体粉末. 可熔化.";
 
 	Properties = TYPE_PART | PROP_HOT_GLOW;
 

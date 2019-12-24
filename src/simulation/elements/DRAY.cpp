@@ -27,7 +27,7 @@ Element_DRAY::Element_DRAY()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Duplicator ray. Replicates a line of particles in front of it.";
+	Description = "复制射线. 将它前面的例子复制一条线.";
 
 	Properties = TYPE_SOLID | PROP_LIFE_DEC;
 

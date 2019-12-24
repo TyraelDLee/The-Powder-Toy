@@ -27,7 +27,7 @@ Element_INVIS::Element_INVIS()
 	Weight = 100;
 
 	HeatConduct = 164;
-	Description = "Invisible to particles while under pressure.";
+	Description = "施压时隐形.";
 
 	Properties = TYPE_SOLID | PROP_NEUTPASS;
 

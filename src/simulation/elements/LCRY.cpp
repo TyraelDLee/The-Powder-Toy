@@ -27,7 +27,7 @@ Element_LCRY::Element_LCRY()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Liquid Crystal. Changes colour when charged. (PSCN Charges, NSCN Discharges)";
+	Description = "液态水晶. 充电时变色. (PSCN 充电, NSCN 放电)";
 
 	Properties = TYPE_SOLID;
 

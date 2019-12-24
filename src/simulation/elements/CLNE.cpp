@@ -27,7 +27,7 @@ Element_CLNE::Element_CLNE()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Clone. Duplicates any particles it touches.";
+	Description = "复制体. 复制任何与其接触的物质.";
 
 	Properties = TYPE_SOLID | PROP_NOCTYPEDRAW;
 

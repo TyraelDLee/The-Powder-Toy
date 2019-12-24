@@ -28,7 +28,7 @@ Element_RIME::Element_RIME()
 
 	DefaultProperties.temp = -30.0f + 273.15f;
 	HeatConduct = 100;
-	Description = "Solid, created when steam cools rapidly and goes through sublimation.";
+	Description = "固态, 当蒸汽迅速冷却并升华时产生.";
 
 	Properties = TYPE_SOLID;
 

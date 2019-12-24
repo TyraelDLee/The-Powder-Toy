@@ -27,7 +27,7 @@ Element_SHLD1::Element_SHLD1()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Shield, spark it to grow.";
+	Description = "护盾, 施加电脉冲时，可以在导体外产生一层保护膜.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

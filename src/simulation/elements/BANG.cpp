@@ -27,7 +27,7 @@ Element_BANG::Element_BANG()
 	Weight = 100;
 
 	HeatConduct = 88;
-	Description = "TNT, explodes all at once.";
+	Description = "TNT, 烈性炸药.";
 
 	Properties = TYPE_SOLID | PROP_NEUTPENETRATE;
 

@@ -27,7 +27,7 @@ Element_PRTO::Element_PRTO()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Portal OUT. Particles come out here. Also has temperature dependent channels. (same as WIFI)";
+	Description = "虫洞出口. 入口吸收的物质从这里释放. 虫洞也有频段. (和WIFI一样)";
 
 	Properties = TYPE_SOLID;
 

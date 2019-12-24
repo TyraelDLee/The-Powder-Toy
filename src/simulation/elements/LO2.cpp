@@ -28,7 +28,7 @@ Element_LO2::Element_LO2()
 
 	DefaultProperties.temp = 80.0f;
 	HeatConduct = 70;
-	Description = "Liquid Oxygen. Very cold. Reacts with fire.";
+	Description = "液氧. 极低温. 可与火反应.";
 
 	Properties = TYPE_LIQUID;
 

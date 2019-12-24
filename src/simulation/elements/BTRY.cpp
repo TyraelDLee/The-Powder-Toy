@@ -27,7 +27,7 @@ Element_BTRY::Element_BTRY()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Battery. Generates infinite electricity.";
+	Description = "电池. 产生无限的电力.";
 
 	Properties = TYPE_SOLID;
 

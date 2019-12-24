@@ -28,7 +28,7 @@ Element_ACID::Element_ACID()
 	Weight = 10;
 
 	HeatConduct = 34;
-	Description = "Dissolves almost everything.";
+	Description = "腐蚀大多数物质.";
 
 	Properties = TYPE_LIQUID|PROP_DEADLY;
 

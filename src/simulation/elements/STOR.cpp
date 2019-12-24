@@ -27,7 +27,7 @@ Element_STOR::Element_STOR()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Storage. Captures and stores a single particle. Releases when charged with PSCN, also passes to PIPE.";
+	Description = "储存器. 抓取并储存单个粒子. 当被P类硅充电时释放, 可传递至 PIPE.";
 
 	Properties = TYPE_SOLID | PROP_NOCTYPEDRAW;
 

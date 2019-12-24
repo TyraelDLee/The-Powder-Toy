@@ -28,7 +28,7 @@ Element_GEL::Element_GEL()
 
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	HeatConduct = 29;
-	Description = "Gel. A liquid with variable viscosity and heat conductivity.";
+	Description = "附着物. 具有可变粘度和导热性的液体.";
 
 	Properties = TYPE_LIQUID|PROP_LIFE_DEC|PROP_NEUTPENETRATE;
 

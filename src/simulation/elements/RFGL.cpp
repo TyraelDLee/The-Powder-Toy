@@ -27,7 +27,7 @@ Element_RFGL::Element_RFGL()
 	Weight = 10;
 
 	HeatConduct = 3;
-	Description = "Liquid refrigerant.";
+	Description = "液态制冷剂.";
 
 	Properties = TYPE_LIQUID|PROP_DEADLY;
 

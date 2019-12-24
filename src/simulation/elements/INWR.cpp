@@ -27,7 +27,7 @@ Element_INWR::Element_INWR()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Insulated Wire. Doesn't conduct to metal or semiconductors.";
+	Description = "绝缘线. 不与金属导电. 只和自己、P型硅与N型硅导电.";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC;
 

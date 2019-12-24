@@ -28,7 +28,7 @@ Element_ISOZ::Element_ISOZ()
 
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	HeatConduct = 29;
-	Description = "Isotope-Z. Radioactive liquid, decays into photons when touching PHOT or under negative pressure.";
+	Description = "同位素Z. 放射性液体, 被光子激发或负压下衰变，衰变产生光子，可导致连锁反应.";
 
 	Properties = TYPE_LIQUID|PROP_NEUTPENETRATE;
 

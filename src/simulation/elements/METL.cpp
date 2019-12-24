@@ -27,7 +27,7 @@ Element_METL::Element_METL()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "The basic conductor. Meltable.";
+	Description = "普通导体. 可熔.";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC|PROP_HOT_GLOW;
 

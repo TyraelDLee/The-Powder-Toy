@@ -28,7 +28,7 @@ Element_DEUT::Element_DEUT()
 
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	HeatConduct = 251;
-	Description = "Deuterium oxide. Volume changes with temp, radioactive with neutrons.";
+	Description = "重水. 体积随着温度变化而变化, 可与中子反应.";
 
 	Properties = TYPE_LIQUID|PROP_NEUTPASS;
 

@@ -27,7 +27,7 @@ Element_DESL::Element_DESL()
 	Weight = 15;
 
 	HeatConduct = 42;
-	Description = "Liquid diesel. Explodes under high pressure and temperatures.";
+	Description = "液态柴油. 高温高压下爆炸.";
 
 	Properties = TYPE_LIQUID;
 

@@ -28,7 +28,7 @@ Element_WTRV::Element_WTRV()
 
 	DefaultProperties.temp = R_TEMP + 100.0f + 273.15f;
 	HeatConduct = 48;
-	Description = "Steam. Produced from hot water.";
+	Description = "蒸汽. 由水气化产生.";
 
 	Properties = TYPE_GAS;
 

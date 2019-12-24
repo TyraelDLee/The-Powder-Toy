@@ -28,7 +28,7 @@ Element_LNTG::Element_LNTG()
 
 	DefaultProperties.temp = 70.15f;
 	HeatConduct = 70;
-	Description = "Liquid Nitrogen. Very cold, disappears whenever it touches anything warmer.";
+	Description = "液氮. 极低温, 在接触任何温度比它高的物质是消失.";
 
 	Properties = TYPE_LIQUID;
 

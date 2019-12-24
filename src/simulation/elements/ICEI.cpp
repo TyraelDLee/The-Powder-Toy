@@ -28,7 +28,7 @@ Element_ICEI::Element_ICEI()
 
 	DefaultProperties.temp = R_TEMP - 50.0f + 273.15f;
 	HeatConduct = 46;
-	Description = "Crushes under pressure. Cools down air.";
+	Description = "受压时碎裂. 冷却空气.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC|PROP_NEUTPASS;
 

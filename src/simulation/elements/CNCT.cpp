@@ -27,7 +27,7 @@ Element_CNCT::Element_CNCT()
 	Weight = 55;
 
 	HeatConduct = 100;
-	Description = "Concrete, stronger than stone.";
+	Description = "混凝土, 比石头强度大.";
 
 	Properties = TYPE_PART|PROP_HOT_GLOW;
 

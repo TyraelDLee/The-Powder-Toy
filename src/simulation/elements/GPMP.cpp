@@ -27,7 +27,7 @@ Element_GPMP::Element_GPMP()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Gravity pump. Changes gravity to its temp when activated. (use HEAT/COOL)";
+	Description = "引力泵. 在激活时引力随温度改变. (用HEAT/COOL)";
 
 	Properties = TYPE_SOLID;
 

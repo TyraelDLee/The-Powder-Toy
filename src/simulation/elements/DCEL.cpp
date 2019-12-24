@@ -27,7 +27,7 @@ Element_DCEL::Element_DCEL()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Decelerator, slows down nearby elements.";
+	Description = "减速器, 降低附近元素的速度.";
 
 	Properties = TYPE_SOLID;
 

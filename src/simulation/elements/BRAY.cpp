@@ -27,7 +27,7 @@ Element_BRAY::Element_BRAY()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Ray Point. Rays create points when they collide.";
+	Description = "射线点. 多束射线相撞时的产物.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC|PROP_LIFE_KILL;
 

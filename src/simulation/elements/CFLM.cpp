@@ -30,7 +30,7 @@ Element_CFLM::Element_CFLM()
 
 	DefaultProperties.temp = 0.0f;
 	HeatConduct = 88;
-	Description = "Sub-zero flame.";
+	Description = "冷焰, 绝对零度.";
 
 	Properties = TYPE_GAS|PROP_LIFE_DEC|PROP_LIFE_KILL;
 

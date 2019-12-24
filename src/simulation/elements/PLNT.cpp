@@ -30,7 +30,7 @@ Element_PLNT::Element_PLNT()
 	Weight = 100;
 
 	HeatConduct = 65;
-	Description = "Plant, drinks water and grows.";
+	Description = "植物, 吸水后成长.";
 
 	Properties = TYPE_SOLID|PROP_NEUTPENETRATE|PROP_LIFE_DEC;
 

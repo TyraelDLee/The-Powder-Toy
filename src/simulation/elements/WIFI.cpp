@@ -27,7 +27,7 @@ Element_WIFI::Element_WIFI()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Wireless transmitter, transfers spark to any other wifi on the same temperature channel.";
+	Description = "无线发射器, 当与其他wifi在同一频道时可互传电信号l.";
 
 	Properties = TYPE_SOLID;
 

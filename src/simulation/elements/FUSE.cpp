@@ -27,7 +27,7 @@ Element_FUSE::Element_FUSE()
 	Weight = 100;
 
 	HeatConduct = 200;
-	Description = "Burns slowly. Ignites at somewhat high temperatures or with electricity.";
+	Description = "导火索. 可以缓慢燃烧，高温或者通电情况下会自燃.";
 
 	Properties = TYPE_SOLID;
 

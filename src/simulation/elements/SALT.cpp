@@ -27,7 +27,7 @@ Element_SALT::Element_SALT()
 	Weight = 75;
 
 	HeatConduct = 110;
-	Description = "Salt, dissolves in water.";
+	Description = "盐, 遇水溶解.";
 
 	Properties = TYPE_PART;
 

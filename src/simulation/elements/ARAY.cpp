@@ -27,7 +27,7 @@ Element_ARAY::Element_ARAY()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Ray Emitter. Rays create points when they collide.";
+	Description = "射线发射器. 通电时向被通电的反方向发出射线, 并产生BRAY.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

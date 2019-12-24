@@ -29,7 +29,7 @@ Element_GRAV::Element_GRAV()
 	Weight = 85;
 
 	HeatConduct = 70;
-	Description = "Very light dust. Changes colour based on velocity.";
+	Description = "非常轻的粉尘. 根据速度改变颜色.";
 
 	Properties = TYPE_PART | PROP_LIFE_DEC;
 

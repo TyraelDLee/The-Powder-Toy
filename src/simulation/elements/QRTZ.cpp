@@ -27,7 +27,7 @@ Element_QRTZ::Element_QRTZ()
 	Weight = 100;
 
 	HeatConduct = 3;
-	Description = "Quartz, breakable mineral. Conducts but becomes brittle at lower temperatures.";
+	Description = "石英, 可破坏物质. 导电但在较低温度下变脆.";
 
 	Properties = TYPE_SOLID|PROP_HOT_GLOW|PROP_LIFE_DEC;
 

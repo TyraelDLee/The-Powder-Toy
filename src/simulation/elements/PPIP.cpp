@@ -28,7 +28,7 @@ Element_PPIP::Element_PPIP()
 
 	DefaultProperties.temp = 273.15f;
 	HeatConduct = 0;
-	Description = "Powered version of PIPE, use PSCN/NSCN to Activate/Deactivate.";
+	Description = "动力 PIPE, 用 PSCN/NSCN 激活/停用.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

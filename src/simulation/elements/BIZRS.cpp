@@ -28,7 +28,7 @@ Element_BIZRS::Element_BIZRS()
 
 	DefaultProperties.temp = R_TEMP + 300.0f + 273.15f;
 	HeatConduct = 251;
-	Description = "Bizarre solid.";
+	Description = "固态奇异物质.";
 
 	Properties = TYPE_SOLID;
 

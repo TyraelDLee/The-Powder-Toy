@@ -28,7 +28,7 @@ Element_VIRS::Element_VIRS()
 
 	DefaultProperties.temp = 72.0f + 273.15f;
 	HeatConduct = 251;
-	Description = "Virus. Turns everything it touches into virus.";
+	Description = "病毒. 将它触碰的一切物质变为病毒.";
 
 	Properties = TYPE_LIQUID|PROP_DEADLY;
 

@@ -28,7 +28,7 @@ Element_GLOW::Element_GLOW()
 
 	DefaultProperties.temp = R_TEMP + 20.0f + 273.15f;
 	HeatConduct = 44;
-	Description = "Glow, Glows under pressure.";
+	Description = "荧光液, 有压力下发光.";
 
 	Properties = TYPE_LIQUID | PROP_LIFE_DEC;
 

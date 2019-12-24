@@ -28,7 +28,7 @@ Element_DLAY::Element_DLAY()
 
 	DefaultProperties.temp = 4.0f + 273.15f;
 	HeatConduct = 0;
-	Description = "Conducts with temperature-dependent delay. (use HEAT/COOL).";
+	Description = "当电流通过时会延时x帧，x等于其当前的温度. (只能使用HEAT/COOL改变温度).";
 
 	Properties = TYPE_SOLID;
 

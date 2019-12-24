@@ -27,7 +27,7 @@ Element_AMTR::Element_AMTR()
 	Weight = 100;
 
 	HeatConduct = 70;
-	Description = "Anti-Matter, destroys a majority of particles.";
+	Description = "反物质, 与大多数粒子结合后湮灭.";
 
 	Properties = TYPE_GAS;
 

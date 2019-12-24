@@ -28,7 +28,7 @@ Element_PUMP::Element_PUMP()
 
 	DefaultProperties.temp = 273.15f;
 	HeatConduct = 0;
-	Description = "Pressure pump. Changes pressure to its temp when activated. (use HEAT/COOL).";
+	Description = "P压力泵. 激活时将压力改为其温度. (用HEAT/COOL).";
 
 	Properties = TYPE_SOLID;
 

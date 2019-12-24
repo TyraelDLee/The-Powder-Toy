@@ -28,7 +28,7 @@ Element_BVBR::Element_BVBR()
 
 	DefaultProperties.temp = 273.15f;
 	HeatConduct = 164;
-	Description = "Broken vibranium.";
+	Description = "振金(美队的盾)粉末.";
 
 	Properties = TYPE_PART|PROP_LIFE_DEC;
 

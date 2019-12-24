@@ -27,7 +27,7 @@ Element_PBCN::Element_PBCN()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Powered breakable clone.";
+	Description = "可控可破坏复制体.";
 
 	Properties = TYPE_SOLID | PROP_NOCTYPEDRAW;
 

@@ -27,7 +27,7 @@ Element_DEST::Element_DEST()
 	Weight = 101;
 
 	HeatConduct = 150;
-	Description = "More destructive Bomb, can break through virtually anything.";
+	Description = "烈性炸药, 几乎可以突破一切.";
 
 	Properties = TYPE_PART|PROP_LIFE_DEC|PROP_LIFE_KILL_DEC;
 

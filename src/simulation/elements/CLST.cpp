@@ -27,7 +27,7 @@ Element_CLST::Element_CLST()
 	Weight = 55;
 
 	HeatConduct = 70;
-	Description = "Clay dust. Produces paste when mixed with water.";
+	Description = "粘土粉. 与水混合后产生粘性.";
 
 	Properties = TYPE_PART;
 

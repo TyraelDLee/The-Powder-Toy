@@ -27,7 +27,7 @@ Element_BRMT::Element_BRMT()
 	Weight = 90;
 
 	HeatConduct = 211;
-	Description = "Broken metal. Created when iron rusts or when metals break from pressure.";
+	Description = "金属粉末. 铁生锈或金属在压力下碎裂而成.";
 
 	Properties = TYPE_PART|PROP_CONDUCTS|PROP_LIFE_DEC|PROP_HOT_GLOW;
 

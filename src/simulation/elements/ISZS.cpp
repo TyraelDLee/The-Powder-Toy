@@ -28,7 +28,7 @@ Element_ISZS::Element_ISZS()
 
 	DefaultProperties.temp = 140.00f;
 	HeatConduct = 251;
-	Description = "Solid form of ISOZ, slowly decays into PHOT.";
+	Description = "固态的 ISOZ, 缓慢释放出光子 PHOT.";
 
 	Properties = TYPE_SOLID;
 

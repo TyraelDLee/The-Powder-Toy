@@ -29,7 +29,7 @@ Element_LDTC::Element_LDTC()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Linear detector. Scans in 8 directions for particles with its ctype and creates a spark on the opposite side.";
+	Description = "线性检测器. 在8个方向上扫描其ctype的粒子，并在另一侧产生火花.";
 
 	Properties = TYPE_SOLID | PROP_NOCTYPEDRAW;
 

@@ -27,7 +27,7 @@ Element_C5::Element_C5()
 	Weight = 100;
 
 	HeatConduct = 88;
-	Description = "Cold explosive, set off by anything cold.";
+	Description = "冷炸药, 可由任何低温物体引爆.";
 
 	Properties = TYPE_SOLID | PROP_NEUTPENETRATE | PROP_LIFE_DEC;
 

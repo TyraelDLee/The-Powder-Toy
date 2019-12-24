@@ -27,7 +27,7 @@ Element_SWCH::Element_SWCH()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Only conducts when switched on. (PSCN switches on, NSCN switches off)";
+	Description = "只在激活时导电. (PSCN 开, NSCN 关)";
 
 	Properties = TYPE_SOLID;
 

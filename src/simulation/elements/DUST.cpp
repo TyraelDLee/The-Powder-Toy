@@ -28,7 +28,7 @@ Element_DUST::Element_DUST()
 	Weight = 85;
 
 	HeatConduct = 70;
-	Description = "Very light dust. Flammable.";
+	Description = "非常轻的粉尘. 可燃.";
 
 	Properties = TYPE_PART;
 

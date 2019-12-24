@@ -27,7 +27,7 @@ Element_SHLD2::Element_SHLD2()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Shield lvl 2.";
+	Description = "lv2 护盾.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

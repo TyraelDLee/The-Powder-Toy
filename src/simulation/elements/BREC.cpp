@@ -27,7 +27,7 @@ Element_BREC::Element_BREC()
 	Weight = 90;
 
 	HeatConduct = 211;
-	Description = "Broken electronics. Formed from EMP blasts, and when constantly sparked while under pressure, turns to EXOT.";
+	Description = "电渣. 被EMP破坏后的电子器件留下的残渣, 在高压（~100）下持续通电会变为EXOT.";
 
 	Properties = TYPE_PART|PROP_CONDUCTS|PROP_LIFE_DEC|PROP_HOT_GLOW;
 

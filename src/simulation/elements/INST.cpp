@@ -27,7 +27,7 @@ Element_INST::Element_INST()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Instantly conducts, PSCN to charge, NSCN to take.";
+	Description = "超导线, 通过 PSCN 发送电流, NSCN 接收电流.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

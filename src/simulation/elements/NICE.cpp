@@ -28,7 +28,7 @@ Element_NICE::Element_NICE()
 
 	DefaultProperties.temp = 35.0f;
 	HeatConduct = 46;
-	Description = "Nitrogen Ice. Very cold, will melt into LN2 when heated only slightly.";
+	Description = "固态氮. 极低温, 轻微受热时融化成液氮.";
 
 	Properties = TYPE_SOLID;
 

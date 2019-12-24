@@ -27,7 +27,7 @@ Element_WIRE::Element_WIRE()
 	Weight = 100;
 
 	HeatConduct = 250;
-	Description = "WireWorld wires, conducts based on a set of GOL-like rules.";
+	Description = "WireWorld 线, 基于类GOL的传导性.";
 
 	Properties = TYPE_SOLID;
 

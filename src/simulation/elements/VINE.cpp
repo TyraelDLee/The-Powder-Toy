@@ -29,7 +29,7 @@ Element_VINE::Element_VINE()
 	Weight = 100;
 
 	HeatConduct = 65;
-	Description = "Vine, can grow along WOOD.";
+	Description = "藤, 可随木头生长.";
 
 	Properties = TYPE_SOLID;
 

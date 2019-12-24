@@ -27,7 +27,7 @@ Element_DTEC::Element_DTEC()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Detector, creates a spark when something with its ctype is nearby.";
+	Description = "探测器, 当附近出现与其ctype相同的元素时产生电流.";
 
 	Properties = TYPE_SOLID;
 

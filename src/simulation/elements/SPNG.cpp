@@ -27,7 +27,7 @@ Element_SPNG::Element_SPNG()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Sponge, absorbs water. Is not a moving solid.";
+	Description = "海绵, 吸水. Is not a moving solid.";
 
 	Properties = TYPE_SOLID;
 

@@ -27,7 +27,7 @@ Element_NTCT::Element_NTCT()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Semi-conductor. Only conducts electricity when hot. (More than 100C)";
+	Description = "热半导体. 只在高温时导电. (高于 100C)";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC;
 

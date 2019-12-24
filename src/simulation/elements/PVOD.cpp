@@ -27,7 +27,7 @@ Element_PVOD::Element_PVOD()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Powered VOID. When activated, destroys entering particles.";
+	Description = "动力 VOID. 激活时, 摧毁进入其内部的粒子.";
 
 	Properties = TYPE_SOLID;
 

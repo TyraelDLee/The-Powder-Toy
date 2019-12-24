@@ -29,7 +29,7 @@ Element_ETRD::Element_ETRD()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Electrode. Creates a surface that allows Plasma arcs. (Use sparingly)";
+	Description = "电极. 在通电时会产生等离子体, 且会与附近的电极一起形成等离子束. (谨慎使用)";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC;
 

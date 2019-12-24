@@ -27,7 +27,7 @@ Element_CO2::Element_CO2()
 	Weight = 1;
 
 	HeatConduct = 88;
-	Description = "Carbon Dioxide. Heavy gas, drifts downwards. Carbonates water and turns to dry ice when cold.";
+	Description = "二氧化碳. 重气体, 在空气中下沉s. 与水反应产生碳酸，低温下产生干冰.";
 
 	Properties = TYPE_GAS;
 

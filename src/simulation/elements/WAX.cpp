@@ -27,7 +27,7 @@ Element_WAX::Element_WAX()
 	Weight = 100;
 
 	HeatConduct = 44;
-	Description = "Wax. Melts at moderately high temperatures.";
+	Description = "腊. 在中等高温下熔化.";
 
 	Properties = TYPE_SOLID;
 

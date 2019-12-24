@@ -27,7 +27,7 @@ Element_CONV::Element_CONV()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Converter. Converts everything into whatever it first touches.";
+	Description = "转换器. 将一切转换成它的初次接触的物质.";
 
 	Properties = TYPE_SOLID | PROP_NOCTYPEDRAW;
 

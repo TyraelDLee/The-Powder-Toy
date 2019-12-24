@@ -28,7 +28,7 @@ Element_BOMB::Element_BOMB()
 
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	HeatConduct = 29;
-	Description = "Bomb. Explodes and destroys all surrounding particles when it touches something.";
+	Description = "炸弹. 在接触其他物质后爆炸并摧毁附近的一切粒子.";
 
 	Properties = TYPE_PART|PROP_SPARKSETTLE;
 

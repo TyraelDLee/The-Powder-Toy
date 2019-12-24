@@ -29,7 +29,7 @@ Element_FWRK::Element_FWRK()
 	Weight = 97;
 
 	HeatConduct = 100;
-	Description = "Original version of fireworks, activated by heat/neutrons.";
+	Description = "衰变型烟花, 可用中子撞击或加热触发.";
 
 	Properties = TYPE_PART|PROP_LIFE_DEC;
 

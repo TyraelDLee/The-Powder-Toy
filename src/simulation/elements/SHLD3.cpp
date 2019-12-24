@@ -27,7 +27,7 @@ Element_SHLD3::Element_SHLD3()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Shield lvl 3.";
+	Description = "lv3 护盾.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

@@ -27,7 +27,7 @@ Element_DYST::Element_DYST()
 	Weight = 80;
 
 	HeatConduct = 70;
-	Description = "Dead Yeast.";
+	Description = "死亡的酵母.";
 
 	Properties = TYPE_PART;
 

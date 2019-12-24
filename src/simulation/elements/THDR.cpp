@@ -28,7 +28,7 @@ Element_THDR::Element_THDR()
 
 	DefaultProperties.temp = 9000.0f + 273.15f;
 	HeatConduct = 1;
-	Description = "Lightning! Very hot, inflicts damage upon most materials, and transfers current to metals.";
+	Description = "闪电! V非常热, 对大部分物质造成破坏, 并将电流传入金属.";
 
 	Properties = TYPE_PART;
 

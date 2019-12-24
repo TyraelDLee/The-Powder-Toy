@@ -27,7 +27,7 @@ Element_THRM::Element_THRM()
 	Weight = 90;
 
 	HeatConduct = 211;
-	Description = "Thermite. Burns at extremely high temperature.";
+	Description = "铝热剂. 在极高温下燃烧.";
 
 	Properties = TYPE_PART;
 

@@ -28,7 +28,7 @@ Element_EMBR::Element_EMBR()
 
 	DefaultProperties.temp = 500.0f + 273.15f;
 	HeatConduct = 29;
-	Description = "Sparks. Formed by explosions.";
+	Description = "火花. 由爆炸形成.";
 
 	Properties = TYPE_PART|PROP_LIFE_DEC|PROP_LIFE_KILL|PROP_SPARKSETTLE;
 

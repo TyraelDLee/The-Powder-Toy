@@ -27,7 +27,7 @@ Element_PRTI::Element_PRTI()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Portal IN. Particles go in here. Also has temperature dependent channels. (same as WIFI)";
+	Description = "虫洞入口. 物质从这可以被吸收，没有 PRTO 存在的时候可以当做一个弱引力源，产生微负压. 虫洞也有频段. (和WIFI一样)";
 
 	Properties = TYPE_SOLID;
 

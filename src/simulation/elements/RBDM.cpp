@@ -27,7 +27,7 @@ Element_RBDM::Element_RBDM()
 	Weight = 100;
 
 	HeatConduct = 240;
-	Description = "Rubidium. Explosive, especially on contact with water. Low melting point.";
+	Description = "铷. 可爆炸, 尤其与水接触r. 熔点低.";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC;
 

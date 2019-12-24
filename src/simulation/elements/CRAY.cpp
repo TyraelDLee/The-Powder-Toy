@@ -27,7 +27,7 @@ Element_CRAY::Element_CRAY()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Particle Ray Emitter. Creates a beam of particles set by its ctype, with a range set by tmp.";
+	Description = "粒子射线发射器. 创建由其ctype设置的粒子束，温度影响范围.";
 
 	Properties = TYPE_SOLID;
 

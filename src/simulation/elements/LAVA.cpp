@@ -29,7 +29,7 @@ Element_LAVA::Element_LAVA()
 
 	DefaultProperties.temp = R_TEMP + 1500.0f + 273.15f;
 	HeatConduct = 60;
-	Description = "Molten lava. Ignites flammable materials. Generated when metals and other materials melt, solidifies when cold.";
+	Description = "岩浆. 易燃材料. 由金属或其他物质熔化产生, 降温后凝固成石粉.";
 
 	Properties = TYPE_LIQUID|PROP_LIFE_DEC;
 

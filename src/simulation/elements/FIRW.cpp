@@ -28,7 +28,7 @@ Element_FIRW::Element_FIRW()
 	Weight = 55;
 
 	HeatConduct = 70;
-	Description = "Fireworks! Colorful, set off by fire.";
+	Description = "烟花! 多彩的, 由火引爆.";
 
 	Properties = TYPE_PART|PROP_LIFE_DEC;
 

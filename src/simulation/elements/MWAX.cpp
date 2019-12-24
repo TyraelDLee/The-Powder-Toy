@@ -28,7 +28,7 @@ Element_MWAX::Element_MWAX()
 
 	DefaultProperties.temp = R_TEMP + 28.0f + 273.15f;
 	HeatConduct = 44;
-	Description = "Liquid Wax. Hardens into WAX at 45 degrees.";
+	Description = "液态的蜡. 在45度下硬化成蜡.";
 
 	Properties = TYPE_LIQUID;
 

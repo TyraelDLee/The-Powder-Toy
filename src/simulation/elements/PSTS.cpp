@@ -28,7 +28,7 @@ Element_PSTS::Element_PSTS()
 
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	HeatConduct = 29;
-	Description = "Solid form of PSTE.";
+	Description = "固体 PSTE.";
 
 	Properties = TYPE_SOLID;
 

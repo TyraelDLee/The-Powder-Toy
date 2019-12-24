@@ -27,7 +27,7 @@ Element_NBHL::Element_NBHL()
 	Weight = 100;
 
 	HeatConduct = 186;
-	Description = "Black hole, sucks in particles using gravity. (Requires Newtonian gravity)";
+	Description = "黑洞, 用引力将粒子吸入. (需要万有引力)";
 
 	Properties = TYPE_SOLID;
 

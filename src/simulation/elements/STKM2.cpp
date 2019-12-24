@@ -29,7 +29,7 @@ Element_STKM2::Element_STKM2()
 
 	DefaultProperties.temp = R_TEMP + 14.6f + 273.15f;
 	HeatConduct = 0;
-	Description = "Second stickman. Don't kill him! Control with wasd.";
+	Description = "火柴人2号. 别杀他! 用wasd控制他.";
 
 	Properties = PROP_NOCTYPEDRAW;
 

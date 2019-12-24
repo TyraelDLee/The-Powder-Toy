@@ -28,7 +28,7 @@ Element_FRZZ::Element_FRZZ()
 
 	DefaultProperties.temp = 253.15f;
 	HeatConduct = 46;
-	Description = "Freeze powder. When melted, forms ice that always cools. Spreads with regular water.";
+	Description = "寒尘. 会自己不断降温的神奇物质, 若溶解在水中会形成寒水.";
 
 	Properties = TYPE_PART;
 

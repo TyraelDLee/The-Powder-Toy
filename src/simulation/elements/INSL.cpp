@@ -27,7 +27,7 @@ Element_INSL::Element_INSL()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Insulator, does not conduct heat and blocks electricity.";
+	Description = "绝缘体, 不导热不导电.";
 
 	Properties = TYPE_SOLID;
 

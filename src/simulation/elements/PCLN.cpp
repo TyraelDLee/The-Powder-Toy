@@ -27,7 +27,7 @@ Element_PCLN::Element_PCLN()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Powered clone. When activated, duplicates any particles it touches.";
+	Description = "可控复制体. 激活时同 CLNE.";
 
 	Properties = TYPE_SOLID | PROP_NOCTYPEDRAW;
 

@@ -29,7 +29,7 @@ Element_WOOD::Element_WOOD()
 	Weight = 100;
 
 	HeatConduct = 164;
-	Description = "Wood, flammable.";
+	Description = "木头, 可燃.";
 
 	Properties = TYPE_SOLID | PROP_NEUTPENETRATE;
 

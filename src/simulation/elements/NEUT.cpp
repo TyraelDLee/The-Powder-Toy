@@ -28,7 +28,7 @@ Element_NEUT::Element_NEUT()
 
 	DefaultProperties.temp = R_TEMP + 4.0f + 273.15f;
 	HeatConduct = 60;
-	Description = "Neutrons. Interact with matter in odd ways.";
+	Description = "中子. 会对某些其他物质产生影响.";
 
 	Properties = TYPE_ENERGY|PROP_LIFE_DEC|PROP_LIFE_KILL_DEC;
 

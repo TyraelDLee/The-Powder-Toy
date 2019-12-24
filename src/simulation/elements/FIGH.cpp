@@ -29,7 +29,7 @@ Element_FIGH::Element_FIGH()
 
 	DefaultProperties.temp = R_TEMP + 14.6f + 273.15f;
 	HeatConduct = 0;
-	Description = "Fighter. Tries to kill stickmen. You must first give it an element to kill him with.";
+	Description = "打手. 它们会尝试杀死火柴人.";
 
 	Properties = PROP_NOCTYPEDRAW;
 

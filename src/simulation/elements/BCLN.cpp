@@ -27,7 +27,7 @@ Element_BCLN::Element_BCLN()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Breakable Clone.";
+	Description = "可破坏复制体.";
 
 	Properties = TYPE_SOLID | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC | PROP_NOCTYPEDRAW;
 

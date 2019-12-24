@@ -27,7 +27,7 @@ Element_PROT::Element_PROT()
 	Weight = -1;
 
 	HeatConduct = 61;
-	Description = "Protons. Transfer heat to materials, and removes sparks.";
+	Description = "质子. 将热量转移到材料上，并消除火花.";
 
 	Properties = TYPE_ENERGY;
 

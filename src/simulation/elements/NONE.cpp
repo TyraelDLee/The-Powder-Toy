@@ -27,7 +27,7 @@ Element_NONE::Element_NONE()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Erases particles.";
+	Description = "擦出粒子.";
 
 	Properties = 0;
 

@@ -28,7 +28,7 @@ Element_ANAR::Element_ANAR()
 	Weight = 85;
 
 	HeatConduct = 70;
-	Description = "Anti-air. Very light dust, which behaves opposite gravity.";
+	Description = "逆尘. 非常轻的粉尘, 拥有反重力性质.";
 
 	Properties = TYPE_PART;
 

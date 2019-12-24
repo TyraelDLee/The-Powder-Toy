@@ -27,7 +27,7 @@ Element_TSNS::Element_TSNS()
 	Weight = 100;
 
 	HeatConduct = 0;
-	Description = "Temperature sensor, creates a spark when there's a nearby particle with a greater temperature.";
+	Description = "温度传感器, 当附近粒子带有高温时产生电流.";
 
 	Properties = TYPE_SOLID;
 

@@ -27,7 +27,7 @@ Element_STNE::Element_STNE()
 	Weight = 90;
 
 	HeatConduct = 150;
-	Description = "Heavy particles. Meltable.";
+	Description = "大质量粒子. 可熔.";
 
 	Properties = TYPE_PART;
 

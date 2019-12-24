@@ -28,7 +28,7 @@ Element_SPRK::Element_SPRK()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Electricity. The basis of all electronics in TPT, travels along wires and other conductive elements.";
+	Description = "电火花. TPT所有电器的基础, 在导线或其他导体内传导.";
 
 	Properties = TYPE_SOLID|PROP_LIFE_DEC;
 

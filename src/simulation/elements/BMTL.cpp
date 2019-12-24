@@ -27,7 +27,7 @@ Element_BMTL::Element_BMTL()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Breakable metal. Common conductive building material, can melt and break under pressure.";
+	Description = "脆金属. 常见的导电物质, 会在压力下断裂和熔化.";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC|PROP_HOT_GLOW;
 

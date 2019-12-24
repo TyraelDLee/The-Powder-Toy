@@ -30,7 +30,7 @@ Element_PSTN::Element_PSTN()
 
 	DefaultProperties.temp = 10.0f + 273.15f;
 	HeatConduct = 0;
-	Description = "Piston, extends and pushes particles.";
+	Description = "活塞, 延伸并推动粒子.";
 
 	Properties = TYPE_SOLID;
 

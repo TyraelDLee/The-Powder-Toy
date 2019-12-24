@@ -27,7 +27,7 @@ Element_TESC::Element_TESC()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "Tesla coil! Creates lightning when sparked.";
+	Description = "特斯拉线圈! 通电时产生闪电.";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC|PROP_HOT_GLOW;
 

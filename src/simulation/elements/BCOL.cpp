@@ -28,7 +28,7 @@ Element_BCOL::Element_BCOL()
 	Weight = 90;
 
 	HeatConduct = 150;
-	Description = "Broken Coal. Heavy particles, burns slowly.";
+	Description = "煤粉. 粉状的煤, 缓慢燃烧.";
 
 	Properties = TYPE_PART;
 

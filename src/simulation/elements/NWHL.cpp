@@ -27,7 +27,7 @@ Element_NWHL::Element_NWHL()
 	Weight = 100;
 
 	HeatConduct = 186;
-	Description = "White hole, pushes away other particles with gravity. (Requires Newtonian gravity)";
+	Description = "白洞, 用引力喷出粒子. (需要万有引力)";
 
 	Properties = TYPE_SOLID;
 

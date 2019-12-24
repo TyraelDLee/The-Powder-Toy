@@ -28,7 +28,7 @@ Element_EXOT::Element_EXOT()
 
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	HeatConduct = 250;
-	Description = "Exotic matter. Explodes with excess exposure to electrons. Has many other odd reactions.";
+	Description = "Exotic matter. 过度暴露于电子后爆炸. 还有很多其他奇怪的反应.";
 
 	Properties = TYPE_LIQUID|PROP_NEUTPASS;
 
